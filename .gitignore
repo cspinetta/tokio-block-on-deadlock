@@ -1,0 +1,42 @@
+# Rust build artifacts
+/target
+**/*.rs.bk
+*.pdb
+
+# Cargo lock file (uncomment if this is a library)
+# Cargo.lock
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Rust-specific
+**/*.rs.bk
+*.orig
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.ilk
+
+# Test coverage
+*.profraw
+*.profdata
+/coverage/
+tarpaulin-report.html
+
+# Flamegraph
+flamegraph.svg
+perf.data
+perf.data.old
+
+# Benchmarking
+/bench/
+
+# Documentation build
+/doc/
